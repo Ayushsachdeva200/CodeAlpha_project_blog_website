@@ -1,0 +1,178 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(168, 212, 98); /* Change the background color to green */
+  }
+  
+  .container1 {
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  h5 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(1, 28, 1);
+    text-align: center; /* Center align the heading */
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: rgb(1, 28, 1);
+    color: white;
+    padding: 20px;
+  }
+  
+  .header-image {
+    position: relative; /* Fix the position of the header image */
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .image-text h2 {
+    font-size: 80px;
+    margin: 0;
+  }
+  
+  .explore-button {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content Styles */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .posts {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(26, 79, 26); /* Change the background color to green */
+  }
+  .inline-heading {
+    display: inline;
+  }
+  .posts article {
+    margin-bottom: 300px;
+    filter: grayscale(100%);
+  }
+  
+  .posts article:hover {
+    filter: grayscale(0%);
+  }
+  
+  aside {
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(168, 212, 98);
+  }
+  
+  .newsletter h3,
+  .follow-us h3 {
+    color: black;
+  }
+  
+  .newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background-color: rgb(1, 28, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: gray;
+  }
+  
+  .follow-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .follow-us ul li {
+    margin-bottom: 5px;
+  }
+  
+  .follow-us ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: rgb(1, 28, 1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-us p,
+  .contact p {
+    margin: 0;
+    color: white;
+  }
+  
